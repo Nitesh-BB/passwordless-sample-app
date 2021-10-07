@@ -92,12 +92,12 @@
   <script>
    const lat = '<%= data.latitude %>'
    const long = '<%= data.longitude %>'
-   document.getElementById("map").src = `https://www.google.com/maps/embed/v1/place?key=AIzaSyCQpzHi4jygLfaeksgPB3HSlKduF8YD5Hw&q=${lat},${long}&zoom=15`
+   document.getElementById("map").src = `https://www.google.com/maps?q=${lat},${long}&zoom=15;output=embed`
     </script>
     <script src="/js/jquery-3.3.1.min.js"></script>
-    <script src="/js/popper.min.js"></script>
+   
     <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/jquery.validate.min.js"></script>
+   
     <script src="/js/main.js"></script>
     <script defer src="/js/webToMobile.js"></script>
     <script src="/js/Detect.js"></script>
